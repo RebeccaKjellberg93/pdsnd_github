@@ -154,7 +154,6 @@ def user_stats(df):
       print('\nGender Types:\n', gender_types)
     except KeyError:
       print("\nGender Types:\nNo data available for this month.")
-   
     # TO DO: Display earliest, most recent, and most common year of birth
     try:
       Earliest_Year = df['Birth Year'].min()
@@ -176,7 +175,6 @@ def user_stats(df):
 
 def display_raw_data(df):
     """Displays raw data on user request.
-
     Args:
         (DataFrame) df - Pandas DataFrame containing city data filtered by month and day
     """
@@ -208,7 +206,6 @@ def main():
         restart = input('\nWould you like to restart? Enter yes or no.\n')
         if restart.lower() != 'yes':
             break
-
 
 if __name__ == "__main__":
     main()
