@@ -19,3 +19,6 @@ https://github.com/
 https://www.learndatasci.com/solutions/python-keyerror/
 
 # I've used the book "Learn Python the Hard Way 3" by Zed Shaw
+
+# I've used Udacity's Knowledge page
+https://knowledge.udacity.com/
